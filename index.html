@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency-Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="converter">
+            <div class="heading">
+                <h1>Currency-Converter</h1>
+            </div>
+            <div class="image-container">
+                <i class="fa-solid fa-wallet fa-4x "></i>
+            </div>
+            <div class="value-container">
+                <input type="number" name="amount" id="amount" placeholder="Amount to check conversion value">
+            </div>
+            <div class="country-currencies ">
+                <div class="images from">
+                    <img src="https://flagsapi.com/US/flat/64.png" />
+                    <select name="from" id="from-value" class="value">
+
+                    </select>
+                </div>
+                <i class="fa-solid fa-money-bill-transfer" style="font-size: 30px;"></i>
+
+                <div class="images to">
+                    <img src="https://flagsapi.com/IN/flat/64.png" />
+                    <select name="to" id="to-value" class="value">
+
+                    </select>
+                </div>
+
+                </select>
+            </div>
+            <div class="real-value">
+
+            </div>
+            <div class="convert-btn">
+                <button class="btn">Convert</button>
+            </div>
+
+            <div class="output">
+
+            </div>
+
+        </div>
+    </div>
+    <script src="countrylist.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/c751d134c4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
