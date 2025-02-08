@@ -156,7 +156,7 @@ font-size: 30px;
 
     .converter {
         width: 70vw;
-        height: 70vh;
+        height: 90vh;
         display: flex;
         gap: 20px;
     }
@@ -207,16 +207,7 @@ font-size: 30px;
         font-size: 30px;
     }
 
-    .output {
-        width: 100%;
-        /* background-color: rgba(0, 255, 255, 0.225); */
-        /* font-size: 35px; */
-        margin-bottom: 10px;
-        text-align: center;
-        width: 50vw;
-        border-radius: 50px;
-        margin-top: -15px;
-    }
+
 }
 
 
@@ -286,7 +277,7 @@ font-size: 30px;
     }
 
     .output p {
-        padding: 20px;
+        padding: 5px;
     }
 }
 
@@ -358,7 +349,7 @@ font-size: 30px;
     }
 
     .output p {
-        font-size: 20px;
+        font-size: 27px;
     }
 
 }
