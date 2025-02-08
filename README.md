@@ -41,7 +41,7 @@ Follow these steps to set up the project locally:
 
 2. **Navigate to the project folder:**
     ```bash
-    cd currency-converter
+    cd Currency-Converter
     ```
 
 3. **Open `index.html` file** in your browser or set up a local server:
